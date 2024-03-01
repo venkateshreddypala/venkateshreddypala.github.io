@@ -1,0 +1,36 @@
+.fade-in {
+  animation: fade-in ease 500ms;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.banner {
+  min-height: 70vh;
+}
+
+@media (min-width: 1024px) {
+  .banner {
+    min-height: 95vh;
+  }
+}
+
+.social-icons:last-child .icon {
+  margin-right: 0;
+}
+
+.content {
+  padding-bottom: 0 !important;
+}
+
+.collapse .view .title {
+  color: white;
+}
