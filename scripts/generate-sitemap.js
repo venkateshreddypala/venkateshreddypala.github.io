@@ -4,7 +4,7 @@ const matter = require('gray-matter');
 const prettier = require('prettier');
 const siteMetadata = require('../data/siteMetadata');
 
-(async () => {
+(async function generateSitemapData () {
   const prettierConfig = await prettier.resolveConfig('./.prettierrc.js');
   const pages = await globby([
     'pages/*.js',
@@ -63,7 +63,4 @@ const siteMetadata = require('../data/siteMetadata');
     ...prettierConfig,
     parser: 'html',
   });
-
-  // eslint-disable-next-line no-sync
-  fs.writeFileSync('public/sitemap.xml', formatted);
 })();
