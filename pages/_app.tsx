@@ -28,11 +28,17 @@ import { ThemeContext } from '@/components/ThemeContext';
 const isDevelopment = process.env.NODE_ENV === 'development';
 const isSocket = process.env.SOCKET;
 
+// interface ThemeProviderProps {
+//   children: React.ReactNode;
+//   attribute: string;
+//   defaultTheme: string;
+// }
+
 export default function App({ Component, pageProps }: AppProps) {
   const [color, setColor] = useState('#000000');
   return (
     <ThemeContext.Provider value={{ color, setColor }}>
-      <ThemeProvider attribute='class' defaultTheme={siteMetadata.theme}>
+      <ThemeProvider attribute='class' defaultTheme='light'>
         <Head>
           <meta content='width=device-width, initial-scale=1' name='viewport' />
         </Head>
