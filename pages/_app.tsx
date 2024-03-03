@@ -32,7 +32,7 @@ export default function App({ Component, pageProps }: AppProps) {
   const [color, setColor] = useState('#000000');
   return (
     <ThemeContext.Provider value={{ color, setColor }}>
-      <ThemeProvider attribute='class' defaultTheme={siteMetadata.theme}>
+      <ThemeProvider attribute='class' defaultTheme={String(siteMetadata.theme)}>
         <Head>
           <meta content='width=device-width, initial-scale=1' name='viewport' />
         </Head>
