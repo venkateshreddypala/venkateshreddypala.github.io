@@ -7,7 +7,7 @@ const siteMetadata = {
   language: 'en-us',
   theme: 'system', // system, dark or light
   siteUrl: 'https://vrpala.com',
-  siteRepo: 'https://github.com/venkateshreddypala/venkateshreddypala.github.io',
+  siteRepo: 'https://github.com/venkateshreddypala/vrpala',
   siteLogo: '/static/images/logo.png',
   image: '/static/avatar.jpg',
   socialBanner: '/static/banner.png',
