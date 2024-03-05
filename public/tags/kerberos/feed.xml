@@ -1,0 +1,24 @@
+
+  <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+      <title>Pala</title>
+      <link>https://vrpala.com/blog</link>
+      <description>A software engineer who aims to evolve, innovate, and inspire through technology.</description>
+      <language>en-us</language>
+      <managingEditor>venkateshreddypaal@gmail.com (Venkatesh R Pala)</managingEditor>
+      <webMaster>venkateshreddypaal@gmail.com (Venkatesh R Pala)</webMaster>
+      <lastBuildDate>Mon, 04 Mar 2024 00:00:00 GMT</lastBuildDate>
+      <atom:link href="https://vrpala.com/tags/kerberos/feed.xml" rel="self" type="application/rss+xml"/>
+      
+  <item>
+    <guid>https://vrpala.com/blog/secure-microservices-using-spring-security-kerberos-kafka</guid>
+    <title>Secure Your Microservices with Spring Security and Kerberos</title>
+    <link>https://vrpala.com/blog/secure-microservices-using-spring-security-kerberos-kafka</link>
+    <description>Secure Your Microservices with Spring Security and Kerberos</description>
+    <pubDate>Mon, 04 Mar 2024 00:00:00 GMT</pubDate>
+    <author>venkateshreddypaal@gmail.com (Venkatesh R Pala)</author>
+    <category>Kerberos</category><category>java</category><category>kafka</category>
+  </item>
+
+    </channel>
+  </rss>
