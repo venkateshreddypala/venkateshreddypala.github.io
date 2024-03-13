@@ -20,5 +20,15 @@
     <category>Kerberos</category><category>java</category><category>kafka</category>
   </item>
 
+  <item>
+    <guid>https://vrpala.com/blog/go-error-handling-typescript</guid>
+    <title>Go like error handling in TypeScript</title>
+    <link>https://vrpala.com/blog/go-error-handling-typescript</link>
+    <description>Learn about how we can handle our errors like Go with TypeScript</description>
+    <pubDate>Fri, 20 Aug 2021 00:00:00 GMT</pubDate>
+    <author>venkateshreddypaal@gmail.com (Venkatesh R Pala)</author>
+    <category>typescript</category><category>go</category><category>node</category>
+  </item>
+
     </channel>
   </rss>

@@ -1,3 +1,4 @@
+import React from 'react'; // Add this line
 import Draft from '@/components/Draft';
 import { MDXLayoutRenderer } from '@/components/MDXComponents';
 import generateRss from '@/lib/generate-rss';
@@ -42,7 +43,7 @@ export const getStaticProps: GetStaticProps<{
   const post = await getFileBySlug<PostFrontMatter>('blog', slug);
   // @ts-ignore
   const authorList = post.frontMatter.authors || ['default'];
-  const authorPromise = authorList.map(async author => {
+  const authorPromise = authorList.map(async (author: string) => {
     const authorResults = await getFileBySlug<AuthorFrontMatter>('authors', [
       author,
     ]);
